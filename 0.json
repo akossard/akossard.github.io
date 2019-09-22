@@ -1,20 +1,22 @@
-{
-    "MenuItem": {
-        "id": "1",
-        "text" : "First",
-		"parent" : "0",
-        "hasChilds" : "True"
-    },
-    "MenuItem": {
-        "id": "2",
-        "text" : "Second",
-        "parent" : "0",
-        "hasChilds" : "False"
-    }
-    "MenuItem": {
-        "id": "3",
-        "text" : "Third",
-        "parent" : "0",
-        "hasChilds" : "True"
-    }
+{ 
+   "listData":[ 
+      { 
+         "id":1,
+         "text":"First",
+         "parent":0,
+         "hasChilds":true
+      },
+      { 
+         "id":2,
+         "text":"Second",
+         "parent":0,
+         "hasChilds":true
+      },
+      { 
+         "id":3,
+         "text":"Third",
+         "parent":0,
+         "hasChilds":false
+      }
+   ]
 }
