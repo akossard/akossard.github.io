@@ -1,0 +1,8 @@
+{
+    "MenuItem": {
+        "id": "1",
+        "text" : "First First First Child",
+		"parent" : "1",
+        "hasChilds" : "False"
+    }
+}

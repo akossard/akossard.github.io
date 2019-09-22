@@ -1,0 +1,14 @@
+{
+    "MenuItem": {
+        "id": "1",
+        "text" : "Third First Child",
+		"parent" : "1",
+        "hasChilds" : "False"
+    },
+    "MenuItem": {
+        "id": "2",
+        "text" : "Third Second Child",
+        "parent" : "1",
+        "hasChilds" : "False"
+    }
+}
