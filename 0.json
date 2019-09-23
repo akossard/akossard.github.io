@@ -3,21 +3,18 @@
       "id":0,
       "text":"First",
       "parent":null,
-      "childs":null,
       "hasChilds":false
    },
    { 
       "id":1,
       "text":"Second",
       "parent":null,
-      "childs":null,
       "hasChilds":false
    },
    { 
       "id":2,
       "text":"Third",
       "parent":null,
-      "childs":null,
       "hasChilds":false
    }
 ]
