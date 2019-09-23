@@ -3,7 +3,7 @@
       "id":0,
       "text":"First",
       "parent":null,
-      "hasChilds":false
+      "hasChilds":true
    },
    { 
       "id":1,
