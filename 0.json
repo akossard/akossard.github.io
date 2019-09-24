@@ -1,21 +1,21 @@
 [ 
    { 
       "unique_id":1,
-      "index":0,
+      "index":1,
       "text":"First",
       "parent":0,
       "hasChilds":true
    },
    { 
       "unique_id":2,
-      "index":1,
+      "index":2,
       "text":"Second",
       "parent":0,
       "hasChilds":false
    },
    { 
       "unique_id":3,
-      "index":2,
+      "index":3,
       "text":"Third",
       "parent":0,
       "hasChilds":false
