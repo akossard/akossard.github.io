@@ -1,14 +1,10 @@
-{
-    "MenuItem": {
-        "id": "1",
-        "text" : "Third First Child",
-		"parent" : "1",
-        "hasChilds" : "False"
-    },
-    "MenuItem": {
-        "id": "2",
-        "text" : "Third Second Child",
-        "parent" : "1",
-        "hasChilds" : "False"
-    }
-}
+[
+   {
+      "unique_id":8,
+      "index":0,
+      "text":"Third First",
+      "parent":3,
+      "hasChilds":false
+   }
+
+]

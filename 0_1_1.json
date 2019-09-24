@@ -1,8 +1,17 @@
-{
-    "MenuItem": {
-        "id": "1",
-        "text" : "First First First Child",
-		"parent" : "1",
-        "hasChilds" : "False"
-    }
-}
+[
+   {
+      "unique_id":6,
+      "index":0,
+      "text":"First First First",
+      "parent":4,
+      "hasChilds":false
+   },
+   {
+      "unique_id":7,
+      "index":1,
+      "text":"First First Second",
+      "parent":4,
+      "hasChilds":false
+   }
+
+]
