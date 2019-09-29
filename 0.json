@@ -11,7 +11,7 @@
       "index":2,
       "text":"Second",
       "parent":0,
-      "hasChilds":false
+      "hasChilds":true
    },
    { 
       "unique_id":3,
