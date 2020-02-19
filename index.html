@@ -1,13 +1,37 @@
-<!doctype HTML>
 <html>
-<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-<script src="https://raw.githack.com/jeromeetienne/AR.js/2.2.0/aframe/build/aframe-ar.js"></script>
-  <body style='margin : 0px; overflow: hidden;'>
+  <head>
+     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/2.2.0/aframe/build/aframe-ar.js"></script>
+    <!-- <script src="aframe-ar.js"></script> use this (v1.6) if this demo ever breaks-->
+  </head>
+  <body>
     <a-scene embedded arjs>
-      	<a-assets>
-    		<a-video src="Kolaaa-suli4.avi"></a-video>
-  		</a-assets>
-      <a-entity camera></a-entity>
+    <a-assets>
+        <video id="alpha" autoplay muted loop="true" src="assets/AlphaTestVideo.webm" crossorigin></video>
+    </a-assets>
+    <script></script>
+
+    <!-- Using the asset management system. -->
+
+    <a-video id = "vid"  rotation =  "-62.584 -3.936 4.509"  scale="5 5 1" src="#alpha" >
+   <video scale= "20 20 1" src="#source" autoplay muted></video></a-video>
+
+    <a-marker-camera preset='hiro'>
+    </a-marker-camera>
     </a-scene>
   </body>
+
+  <script>
+
+    function play(id){
+      var aVideoAsset = document.querySelector('#' + id);
+      aVideoAsset.play().catch(function (error) {
+        aVideoAsset.pause();
+      });
+      aVideoAsset.setAttribute('loop', 'false');
+    }
+
+play("alpha");
+  </script>
 </html>
