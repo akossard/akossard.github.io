@@ -6,19 +6,21 @@
     <!-- <script src="aframe-ar.js"></script> use this (v1.6) if this demo ever breaks-->
   </head>
   <body>
-    <a-scene embedded arjs>
+      <a-scene embedded vr-mode-ui="enabled: false"
+          arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
     <a-assets>
-        <video id="alpha" autoplay muted loop="true" src="assets/AlphaTestVideo.webm" crossorigin></video>
+        <video id="alpha" autoplay muted loop="true" src="assets/AlphaTestVideo.webm"></video>
     </a-assets>
-    <script></script>
+
+    <a-entity camera></a-entity>
 
     <!-- Using the asset management system. -->
 
-    <a-video id = "vid"  rotation =  "-62.584 -3.936 4.509"  scale="5 5 1" src="#alpha" >
-   <video scale= "20 20 1" src="#source" autoplay muted></video></a-video>
 
-    <a-marker-camera preset='hiro'>
-    </a-marker-camera>
+    <a-marker preset='hiro'>
+        <a-video id = "vid"  rotation =  "-62.584 -3.936 4.509"  scale="1 1 1" src="#alpha" >
+        <video scale= "10 10 10 " src="#source"></video></a-video>
+    </a-marker>
     </a-scene>
   </body>
 
