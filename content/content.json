@@ -11,5 +11,12 @@
 		"thumbnailUrl": "https://akossard.github.io/content/2/thumbnail.jpg",
 		"contentUrl": "https://akossard.github.io/content/2/content.jpg",
 		"type": "IMAGE"
+	},
+	{
+		"id": 3,
+		"name": "Pénzeső",
+		"thumbnailUrl": "https://akossard.github.io/content/3/thumbnail.png",
+		"contentUrl": "https://akossard.github.io/content/3/content.webm",
+		"type": "VIDEO"
 	}
 ]
