@@ -1,22 +1,15 @@
 [{
 		"id": 1,
-		"name": "Content one",
-		"thumbnailUrl": "https://akossard.github.io/content/1/thumbnail.jpg",
-		"contentUrl": "https://akossard.github.io/content/1/content.jpg",
+		"name": "Monopoly",
+		"thumbnailUrl": "https://akossard.github.io/content/1/thumbnail.png",
+		"contentUrl": "https://akossard.github.io/content/1/content.png",
 		"type": "IMAGE"
 	},
 	{
 		"id": 2,
-		"name": "Content two",
-		"thumbnailUrl": "https://akossard.github.io/content/2/thumbnail.jpg",
-		"contentUrl": "https://akossard.github.io/content/2/content.jpg",
-		"type": "IMAGE"
-	},
-	{
-		"id": 3,
 		"name": "Pénzeső",
-		"thumbnailUrl": "https://akossard.github.io/content/3/thumbnail.png",
-		"contentUrl": "https://akossard.github.io/content/3/content.mp4",
+		"thumbnailUrl": "https://akossard.github.io/content/2/thumbnail.png",
+		"contentUrl": "https://akossard.github.io/content/2/content.mp4",
 		"type": "VIDEO"
 	}
 ]
